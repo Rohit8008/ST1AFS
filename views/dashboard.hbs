@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+</head>
+<body>
+    <a href="/verify?email={{email}}"><button id="verifyButton">Verify Account</button></a>
+    {{#if show}}
+    <script>
+        alert('{{message}}'); // Accessing the message variable
+    </script>
+    {{/if}}
+</body>
+</html>
